@@ -1,0 +1,108 @@
+/* header style */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 120px 32px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__logo {
+  width: 228px;
+  height: 39px;
+}
+.header__nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+.header__nav-list-item-link {
+  text-decoration: none;
+  color: #192252;
+}
+.button {
+  text-decoration: none;
+  padding: 14px 16px;
+  color: #fff;
+  background-color: #192252;
+  border-radius: 5px;
+}
+/* first section style*/
+.first__section {
+  padding: 80px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 1fr;
+  column-gap: 24px;
+}
+.first__section-box {
+  align-self: center;
+}
+.first__section-box-title {
+  color: #192252;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+.first__section-box-text {
+  max-width: 490px;
+  margin-bottom: 60px;
+}
+.box__img {
+  width: 180px;
+  height: 588px;
+  flex-shrink: 0;
+}
+.first__section-box-img {
+  display: flex;
+  gap: 24px;
+}
+.first-section {
+  background-image: url(/images/First\ image.jpg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: left 80%;
+}
+.second-section {
+  background-image: url(/images/First\ image.jpg);
+  background-size: 320%;
+  background-position: center 135%;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+.third-section {
+  background-image: url(/images/First\ image.jpg);
+  background-size: 300%;
+  background-position: right 80%;
+  background-repeat: no-repeat;
+}
+/* about section style */
+.about__section {
+  padding: 80px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 126px;
+}
+.about__section-box {
+  align-self: center;
+}
+.about__section-box-title {
+  color: #192252;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.36px;
+  margin-bottom: 26px;
+}
+.about__section-box-text {
+  min-width: 584px;
+  margin-bottom: 38px;
+}
