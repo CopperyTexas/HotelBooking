@@ -212,14 +212,27 @@
 }
 .reservation__card-list-item {
   width: 384px;
-  min-height: 490px;
   flex-grow: 1;
+  min-height: 720px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .card__title {
   color: #000;
-  text-align: center;
+  text-align: left;
   font-family: "Montserrat";
   font-size: 24px;
   font-weight: 600;
   line-height: 150%;
+  margin-bottom: 16px;
+}
+.card__link {
+  justify-self: end;
+}
+.card__img {
+  margin-bottom: 32px;
 }
